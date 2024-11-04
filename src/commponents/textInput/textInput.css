@@ -1,4 +1,11 @@
 .text-input {
-
     display: flex;
+    gap: 10px;
+
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffc448;
+    text-shadow: -3px 3px #336f96;
+    /* background-color: rgb(218, 40, 76, 0.3); */
+    
 }

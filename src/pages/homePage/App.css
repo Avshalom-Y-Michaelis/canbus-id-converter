@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    height: 97vh;
+    width: 96vw;
+    overflow: hidden;
+    margin: 0px;
+    display: flex;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fecf74;
+    text-shadow: -3px 3px #ff303c;
+}
+
+.app-background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/canbus-id-converter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+}
+
+.background-dumbener {
+    width: 70vw;
+    height: 70vh;
+   background-color: rgb(52, 146, 170, 0.65);
+    position: absolute;
+    z-index: -1;
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -57%);
+}
+.finel-id {
+}
